@@ -1,0 +1,63 @@
+<!Doctype html>
+<html lang="eng">
+<head>
+    <title>Todolist with only Javascript</title>
+    <script src="https://kit.fontawesome.com/26c3fc5650.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header>
+        <p>Save your eyes by puting Darkmode</p>
+        <h1>Find your task faster here</h1>
+        <input type="search" name="search" placeholder="search ..">
+    </header>
+    <section>
+        <form>
+            <select name="Type-of-Task" id="colors">
+                <option value="Select Tags">Select Tags</option>
+                <option value="Home">Home</option>
+                <option value="Important">Important</option> 
+                <option value="Morning">Morning</option>
+                <option value="Work">Work</option> 
+            </select>
+            <input type="Assign" value="Commander !" id="order">
+            <select name="color-select" id="colors">
+                <option value="My self">My self</option>
+                <option value="Jack">Jack</option>
+                <option value="John">John</option> 
+                <option value="Rosa">Rosa</option>
+            </select>
+            <input type="submit" value="SUBMIT" id="order">
+        </form>
+        <div class="all-tasks">
+            <div class="box-task">
+                <input type="checkbox" name="checkbox">
+                <p>Home</p>
+                <h2> Setup development environment</h2>
+                <p> Assign to<span>:Rosa</span></p>
+                <button>modifier</button>
+                <button>Delete</button>
+            </div>
+            <div class="box-task">
+                <input type="checkbox" name="checkbox">
+                <p> Important</p>
+                <h2>Develop website and add content</h2>
+                <p> Assign to<span>:My self </span></p>
+                <button>modifier</button>
+                <button>Delete</button>
+            </div>
+            <div class="box-task">
+                <input type="checkbox" name="checkbox">
+                <p> Work</p>
+                <h2>Deploy to live server</h2>
+                <p> Assign to<span>:Jack </span></p>
+                <button>modifier</button>
+                <button>Delete</button>
+            </div>
+        </div>
+        <h2>Completed Items</h2>
+<!--    <div class="box-task">-->
+<!--    <h2>Develop website and add content</h2> -->
+<!--    <p> Assign to<span>:Jack </span></p>-->
+    </section>
+</body>
