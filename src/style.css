@@ -6,3 +6,114 @@
     padding:0;
     text-decoration:none;
 }
+body{
+    margin-top: 70px;
+}
+
+section{
+    width: 700px;
+    /*height: 600px; */
+    margin: auto; 
+    border-radius: 15px;
+    background-color:#e1dded;
+}
+.searchInput{
+    margin-left:35%; 
+    width: 150px;
+    height: 35px;
+    margin-top: 20px;
+    text-indent: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+h2{
+    font-size: 18px;
+}
+form{
+    width: 94%;
+    margin: auto;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+form select{
+    width: 20%;
+}
+form input{
+    width: 45%;
+}
+form .submit{
+    width:12% ;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: grey;
+}
+
+.all-tasks{
+    display: grid;
+    gap:20px 0;
+    margin-bottom: 90px;
+}
+.box-task{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+.box-task input{
+    width: 5%;
+}
+.box-task .first{
+    width: 13%;
+}
+.box-task h2{
+    width: 38%;
+}
+.box-task p{
+    width: 19%;
+    font-weight: bold;
+}
+span{
+    font-weight: normal;
+}
+
+.box-task button{
+    width: 9%;
+    color: #ffffff;
+    margin-left: 1%;
+    background-color: #d35e0f;
+}
+section h2{
+    margin: auto; 
+}
+.home{
+    text-align: center;
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: skyblue;
+}
+.important{
+    text-align: center;
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: #d94848;
+}
+.work{
+    text-align: center;
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: darkgrey;
+}
+.morning{
+    text-align: center;
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: #d4712f;
+}
+
+section .completed{
+    font-size: 24px;
+    margin-left:35%; 
+}

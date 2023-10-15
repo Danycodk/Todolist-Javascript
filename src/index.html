@@ -6,12 +6,9 @@
     
 </head>
 <body>
-    <header>
-        <p>Save your eyes by puting Darkmode</p>
-        <h1>Find your task faster here</h1>
-        <input type="search" name="search" placeholder="search ..">
-    </header>
     <section>
+        <input type="search" name="search" class="searchInput"value="" placeholder="find your task...">
+        
         <form>
             <select name="Type-of-Task" id="colors">
                 <option value="Select Tags">Select Tags</option>
@@ -20,42 +17,42 @@
                 <option value="Morning">Morning</option>
                 <option value="Work">Work</option> 
             </select>
-            <input type="Assign" value="Commander !" id="order">
+            <input type="Assign" class=""value="" placeholder="Add todo ...">
             <select name="color-select" id="colors">
                 <option value="My self">My self</option>
                 <option value="Jack">Jack</option>
                 <option value="John">John</option> 
                 <option value="Rosa">Rosa</option>
             </select>
-            <input type="submit" value="SUBMIT" id="order">
+            <input type="submit" value="SUBMIT" class="submit">
         </form>
         <div class="all-tasks">
             <div class="box-task">
                 <input type="checkbox" name="checkbox">
-                <p>Home</p>
+                <p class="first home">Home</p>
                 <h2> Setup development environment</h2>
                 <p> Assign to<span>:Rosa</span></p>
-                <button>modifier</button>
+                <button>change</button>
                 <button>Delete</button>
             </div>
             <div class="box-task">
                 <input type="checkbox" name="checkbox">
-                <p> Important</p>
+                <p class="first important"> Important</p>
                 <h2>Develop website and add content</h2>
                 <p> Assign to<span>:My self </span></p>
-                <button>modifier</button>
+                <button>change</button>
                 <button>Delete</button>
             </div>
             <div class="box-task">
                 <input type="checkbox" name="checkbox">
-                <p> Work</p>
+                <p class="first work"> Work</p>
                 <h2>Deploy to live server</h2>
                 <p> Assign to<span>:Jack </span></p>
-                <button>modifier</button>
+                <button>change</button>
                 <button>Delete</button>
             </div>
         </div>
-        <h2>Completed Items</h2>
+        <h2 class="completed">Completed Items</h2>
 <!--    <div class="box-task">-->
 <!--    <h2>Develop website and add content</h2> -->
 <!--    <p> Assign to<span>:Jack </span></p>-->
