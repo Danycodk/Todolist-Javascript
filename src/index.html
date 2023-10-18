@@ -8,9 +8,10 @@
 <body>
     <section>
         <input type="search" name="search" class="searchInput"value="" placeholder="find your task...">
+        <!--filter order -->
         
         <form>
-            <select name="Type-of-Task" id="colors">
+            <select name="Type-of-Task" id="formInputTask">
                 <option value="Select Tags">Select Tags</option>
                 <option value="Home">Home</option>
                 <option value="Important">Important</option> 
@@ -18,7 +19,7 @@
                 <option value="Work">Work</option> 
             </select>
             <input type="Assign" class=""value="" placeholder="Add todo ...">
-            <select name="color-select" id="colors">
+            <select name="color-select" id="names">
                 <option value="My self">My self</option>
                 <option value="Jack">Jack</option>
                 <option value="John">John</option> 
@@ -26,10 +27,11 @@
             </select>
             <input type="submit" value="SUBMIT" class="submit">
         </form>
+        
         <div class="all-tasks">
             <div class="box-task">
                 <input type="checkbox" name="checkbox">
-                <p class="first home">Home</p>
+                <p class="first typeTaskInBox home">Home</p>
                 <h2> Setup development environment</h2>
                 <p> Assign to<span>:Rosa</span></p>
                 <button>change</button>
@@ -52,9 +54,13 @@
                 <button>Delete</button>
             </div>
         </div>
-        <h2 class="completed">Completed Items</h2>
-<!--    <div class="box-task">-->
-<!--    <h2>Develop website and add content</h2> -->
-<!--    <p> Assign to<span>:Jack </span></p>-->
+        <div class="completedItems"> </div>
+            <h2 class="completed">Completed Items</h2>
+            <div class="completedTaskBox">
+<!--            <div class="box-task">-->
+<!--            <h2>Develop website and add content</h2> -->
+<!--            <p> Assign to<span>:Jack </span></p>-->
+            </div>
+        </div>
     </section>
 </body>
