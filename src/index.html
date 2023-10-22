@@ -19,7 +19,7 @@
                 <option value="Work">Work</option> 
             </select>
             <input type="Assign" class=""value="" placeholder="Add todo ...">
-            <select name="color-select" id="names">
+            <select name="names" id="names" >
                 <option value="My self">My self</option>
                 <option value="Jack">Jack</option>
                 <option value="John">John</option> 
@@ -29,29 +29,29 @@
         </form>
         
         <div class="all-tasks">
-            <div class="box-task">
+            <div class="box-task firstB" data-id="1">
                 <input type="checkbox" name="checkbox">
-                <p class="first typeTaskInBox home">Home</p>
+                <p class="first  Home">Home</p>
                 <h2> Setup development environment</h2>
                 <p> Assign to<span>:Rosa</span></p>
                 <button>change</button>
-                <button>Delete</button>
+                <button class="delete">Delete</button>
             </div>
-            <div class="box-task">
+            <div class="box-task secondB" data-id="2">
                 <input type="checkbox" name="checkbox">
-                <p class="first important"> Important</p>
+                <p class="first Important"> Important</p>
                 <h2>Develop website and add content</h2>
                 <p> Assign to<span>:My self </span></p>
                 <button>change</button>
-                <button>Delete</button>
+                <button class="delete">Delete</button>
             </div>
-            <div class="box-task">
+            <div class="box-task thridB" data-id="3">
                 <input type="checkbox" name="checkbox">
-                <p class="first work"> Work</p>
+                <p class="first Work"> Work</p>
                 <h2>Deploy to live server</h2>
                 <p> Assign to<span>:Jack </span></p>
-                <button>change</button>
-                <button>Delete</button>
+                <button >change</button>
+                <button class="delete">Delete</button>
             </div>
         </div>
         <div class="completedItems"> </div>

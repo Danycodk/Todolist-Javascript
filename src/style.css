@@ -88,25 +88,25 @@ span{
 section h2{
     margin: auto; 
 }
-.home{
+.Home{
     text-align: center;
     color: #ffffff;
     border-radius: 10px;
     background-color: skyblue;
 }
-.important{
+.Important{
     text-align: center;
     color: #ffffff;
     border-radius: 10px;
     background-color: #d94848;
 }
-.work{
+.Work{
     text-align: center;
     color: #ffffff;
     border-radius: 10px;
     background-color: darkgrey;
 }
-.morning{
+.Morning{
     text-align: center;
     color: #ffffff;
     border-radius: 10px;
